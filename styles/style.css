@@ -5,7 +5,7 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    
+    background-color: black;
    
   }
 
@@ -16,7 +16,8 @@
   .full-header-section{
     height: 645px;
     width: 100%;
-    background-color:rgb(38, 38, 38);
+    background-color: rgb(31, 30, 30);
+    
       
     
   }
@@ -70,7 +71,7 @@
     .text-picture-item{
         display: flex;
         justify-content: space-between;
-        margin: 30px 200px;
+        margin: 34px 200px;
     }
 
     .head-text-content h1{
@@ -109,7 +110,39 @@
     }
  
 /*head section er text and image  end*/
-
+/*change-habit-item full content start*/
+.change-habit-item{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+.change-habit-item h1{
+    font-size: 42px;
+    font-weight: 700;
+    
+}
+.change-habit-item p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    margin-top: -3px;
+    
+}
+/*four habit items start*/
+.habit-items{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    margin: 50px 250px;
+    align-items: center;
+    justify-content: center;
+}
+.habit-items img{
+    border-radius: calc(90px);
+}
+/*change-habit-item full content end*/
 
 
 
