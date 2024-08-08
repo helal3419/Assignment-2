@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness</title>
     <link rel="stylesheet" href="styles/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+        </style>
 </head>
 <body class="inter-font">
     <header class="full-header-section">
@@ -27,7 +30,7 @@
         <section>
             <div class="text-picture-item">
                 <div class="head-text-content">
-                    <h1>Get body in <br> <span >shape</span>  & stay <br> healthy</h1>
+                    <h1>Get body in <br> <span id="shape" >shape</span>  & stay <br> healthy</h1>
                     <p>A huge selection of health and fitness content, healthy recipes <br> and transformation stories to help you get fit and stay fit!</p>
                     <button id="button-join">Join Club Now!</button>
                      <button id="button-download">Download App</button>
@@ -91,10 +94,98 @@
 
 
         </div>
+        <div class="BMI-heading">
+            <h1>BMI Calculator</h1>
+            <p>We believe fitness should be accessible to everyone, everywhere, regardless of <br> income or  access to a gym.</p>
+        </div>
 
-    </main>
-    <footer>
+        <section class="BMI-calculator">
+            <div class="BMI-chart">
+                <h1>BMI Calculator Chart</h1>
 
+                <table border="2px "  class="full-table" >
+                    <tr class="thed">
+                        <td>BMI </td>
+                        <td>Weight Status</td>
+                    </tr>
+                    <tr>
+                        <td>Below 18.5</td>
+                        <td>Underweight</td>
+                    </tr>
+                    <tr>
+                        <td>18.5 - 24.9</td>
+                        <td>Healthy</td>
+                    </tr>
+                    <tr>
+                        <td>25.0 - 29.9</td>
+                        <td>Overweight</td>
+                    </tr>
+                    <tr>
+                        <td>30.0 - and Above</td>
+                        <td>Obese</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="calculate-BMI">
+                <h1> Calculate your BMI</h1>
+                <p> We believe fitness should be accessible to everyone, everywhere, regardless of <br> income or access to a gym. </p>
+                <div class="full-bmibox">
+                    <div class="height">
+                        <input type="text" placeholder="Height/cm">
+                    </div>
+                    <div class="weight">
+                        <input type="text" placeholder="Weight/kg">
+                    </div>
+                    <div class="age">
+                        <input type="text" placeholder="Age">
+                    </div>
+                    <div class="sex">
+                        <input type="text" placeholder="sex"><select name="" id=""></select>
+                    </div>
+                    <div class="factor">
+                        <input type="text" placeholder=" select and activity factor"><select name="" id=""></select>
+                    </div>
+                    <button id="button-join">Calculate</button>
+                </div>
+
+                
+
+            </div>
+
+        </section>
+
+    </main> <br><br><br><br><br>
+    
+    <footer class="footer">
+        <div class="footer-fullbox">
+            <div class="footer-left-content">
+                <i><h1>Fitness</h1></i>
+                <p>We believe fitness should be accessible to everyone, <br> everywhere, regardless of income or access to a gym. <br> With hundreds of professional workouts.</p>
+            </div>
+            <div class="footer-midle-content">
+                <h2>Get Started</h2>
+                <ul>
+                    <li>Service</li>
+                    <li>Contact Us</li>
+                    <li>Affiliate Program</li>
+                    <li>About Us</li>
+                </ul>
+            </div>
+            <div class="footer-right-content">
+                <h2>Get Started</h2>
+                <ul>
+                    <li>Fitness</li>
+                    <li>Platform</li>
+                    <li>Workout Libary</li>
+                    <li>App Design</li>
+                </ul>
+            </div> 
+
+        </div> <hr>
+        <div class="copyrite">
+            <h4>All right reserved @Fitness 2024</h4>
+        </div>
     </footer>
 </body>
 </html>

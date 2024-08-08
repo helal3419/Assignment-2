@@ -79,7 +79,11 @@
         font-weight: 700;
         color: white;
     }
-
+    #shape{
+        font-family: "Dancing Script", cursive;
+        font-size: 60px;
+        font-weight: 700;
+    }
     .head-text-content p{
         font-size: 16px;
         font-weight: 400;
@@ -190,6 +194,200 @@
     border: none;
 }
 /*Run an Extra  Mile Easily full box end*/
+
+/*BMI-calculator full box start*/
+/*BMI left table start*/
+.BMI-heading{
+    margin:100px 600px ;
+}
+.BMI-heading h1{
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 900;
+    font-size: 40px;
+    margin-top: 100px;
+}
+.BMI-heading p{
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 14px;
+}
+.BMI-calculator{
+    height: 400px;
+    width: 100%;
+    background-color:  rgba(34, 34, 34, 1);
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.full-table{
+    border: 1px rgb(246, 245, 245) solid;
+    height: 40px;
+    width: 350px;
+}
+.full-table td{
+    padding-left: 10px;
+}
+.BMI-chart{
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 200px;
+
+}
+.BMI-chart h1{
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+}
+.thed{
+    color: white;
+}
+
+/*BMI left table end*/
+/*BMI right table start*/
+.calculate-BMI{
+    margin-right: 200px;
+    margin-top: 40px;
+}
+.calculate-BMI h1{
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+}
+.calculate-BMI p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+/*bmi right site box */
+.factor, .sex, .age, .weight, .height{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 5px;
+
+
+}
+
+.height{
+    grid-area: height;
+    
+}
+
+.weight{
+    grid-area: weight;
+}
+
+.age{
+    grid-area: age;
+}
+
+.sex{
+    grid-area: sex;
+    
+}
+
+.factor{
+    grid-area: factor;
+}
+.sex select{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    
+    
+}
+.factor select{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    height:17.5px ; 
+}
+.full-bmibox{
+    display: grid;
+    gap: 20px;
+    
+    grid-template-areas: 
+    " height height weight weight"
+    "age age sex sex "
+    "factor factor factor factor"
+    
+    ;
+}
+.full-bmibox input{
+border: none;
+background-color: rgba(255, 255, 255, 0.1);
+border-style: none;
+}
+
+/*footer fullcontent start */
+.footer{
+    height: 400px;
+    width: 100%;
+    background-color: 
+    rgba(255, 255, 255, 0.1);
+}
+.footer-fullbox{
+
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin: 20px 300px;
+    align-items: center;
+}
+.footer-left-content h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgba(230, 83, 60, 1);
+    ;
+}
+.footer-left-content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+.footer-midle-content h2{
+    font-size: 25px ;
+    font-weight:700 ;
+    color: rgba(255, 255, 255, 1);
+    padding-left: 35px;
+}
+.footer-midle-content li{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.5) ;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.footer-right-content h2{
+    font-size: 25px ;
+    font-weight:700 ;
+    color: rgba(255, 255, 255, 1);
+    padding-left: 35px;
+}
+.footer-right-content li{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.5) ;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.copyrite{
+    color:rgba(255, 255, 255, 0.5) ;
+    font-size:20px ;
+    font-weight:400 ;
+    align-items: center;
+    text-align: center;
+
+}
+.footer hr{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 70%;
+    margin: 0 auto;
+}
+
 
 
 
