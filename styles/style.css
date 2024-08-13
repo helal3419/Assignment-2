@@ -16,10 +16,7 @@
   .full-header-section{
     height: 645px;
     width: 100%;
-    background-color: rgb(31, 30, 30);
-    
-      
-    
+    background-color: rgb(31, 30, 30);  
   }
 
 
@@ -271,6 +268,10 @@
 
 
 }
+.full-bmibox input{
+    height: 25px;
+    width: 250px;
+}
 
 .height{
     grid-area: height;
@@ -293,17 +294,26 @@
 
 .factor{
     grid-area: factor;
+    
+}
+.factor input{
+    width: 535px;
+}
+.weight input{
+    width: 275px;
 }
 .sex select{
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
+    height: 26px;
     
     
 }
 .factor select{
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
-    height:17.5px ; 
+    height:25px ;
+    
 }
 .full-bmibox{
     display: grid;
@@ -321,6 +331,10 @@ border: none;
 background-color: rgba(255, 255, 255, 0.1);
 border-style: none;
 }
+
+
+
+
 /*meet our team full section start */
 .meet-team-section{
     width: 80%;
@@ -428,6 +442,73 @@ border-style: none;
 
 }
 
+
+/*extra form start*/
+.full-form{
+    height: 500px;
+    width: 80%;
+    border: rgb(203, 201, 201) 1px solid;
+    margin: 0 auto;
+    background-color:  rgb(202, 200, 200);
+    box-shadow: white 3px 6px 10px;
+    border-radius: 5px;
+}
+.form-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.picture img{
+    height: 400px;
+    width: 400px;
+}
+.form{
+    border: 1px solid rgb(169, 166, 166);
+    width: 300px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgb(161, 160, 160);
+}
+.form h1{
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+}
+.form p{
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.form label{
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.form input{
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 12px;
+    border: none;
+    
+}
+.form button{
+    font-size:18px ;
+    font-weight: 700;
+    height: 30px;
+    width: 130px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
 /*footer fullcontent start */
 .footer{
     height: 400px;
@@ -517,5 +598,330 @@ border-style: none;
  /*media quarry long device start*/
  @media screen and (min-width: 992px) and (max-width:1024px){
 
+/*extra form start*/
+.full-form{
+    height: 400px;
+    width: 80%;
+    border: rgb(203, 201, 201) 1px solid;
+    margin: 0 auto;
+    background-color:  rgb(202, 200, 200);
+    box-shadow: white 3px 6px 10px;
+    border-radius: 5px;
+}
+.form-box{
+    margin: 20px 20px;
+}
+.picture img{
+    height: 350px;
+    width: 350px;
+}
+.form{
+    width: 270px;
+    padding: 20px 40px;
+}
+.form h1{
+    font-size: 30px;
+}
+.form p{
+    font-size: 14px;
+}
+.form label{
+    font-size: 16px;  
+}
+
+.form button{
+    font-size:16px ;
+}
+.form a{
+    font-size: 14px;
+}
+  /*full-header-section start*/
+
+  /*nave bar start*/
+  .full-header-section{
+    height: 545px;
+    width: 100%; 
+  }
+
+  .navbar{
+    margin: 20px 100px;
+    
+  }
+  .list-items{
+    gap: 40px;
+    height: 30px;
+    margin-right: 20px;
+    
+  }
+
+  #home{
+    font-size: 18px;
+    padding: 3px 15px;  
+  }
+  .nav-link{
+    font-size: 14px;
+  }
+   /*nave bar end*/
+    /*head section er text and image  start*/
+    .text-picture-item{
+        margin: 34px 100px;
+    }
+    .text-picture-item img{
+      height: 400px;
+    }
+    .head-text-content h1{
+        font-size: 35px;
+    }
+    #shape{
+        font-size: 50px;
+    }
+    .head-text-content p{
+        font-size: 14px;
+    }
+
+    #button-join{
+        height: 30px;
+        width: 130px;
+        font-size:12px ;
+
+        
+    }
+    #button-download{
+        height: 30px;
+        width: 130px;
+        font-size:12px ;
+    }
+ 
+/*head section er text and image  end*/
+
+
+
+
+
+
+
+
+/*change-habit-item full content start*/
+.change-habit-item{
+    height: 530px;
+    width: 100%;
+    padding-top: 50px;
+}
+.change-habit-item h1{
+    font-size: 35px;   
+}
+.change-habit-item p{
+    font-size: 12px;  
+}
+/*four habit items start*/
+.habit-items{
+    gap: 40px;
+    margin: 50px 250px;
+
+}
+.habit-items h3{
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+/*Run an Extra  Mile Easily full box start*/
+.run-fullbox{
+    height: 350px;
+    width: 70%;
+    padding: 10px 40px;  
+}
+
+.run-fullbox img{
+    height: 300px;
+    width: 280px;
+    margin-top: 25px;
+    object-fit: none;
+    object-position: 65% 30%;
+    
+}
+.run-fullbox h1{
+    font-size: 30px;
+    margin-top: 40px;
+
+}
+.run-fullbox p{
+    font-size: 12px;
+}
+.run-fullbox button{
+    height: 30px;
+    width: 130px;
+    font-size:12px ;
+}
+/*Run an Extra  Mile Easily full box end*/
+
+
+
+
+
+
+    /*bmi full content*/
+    .BMI-heading{
+        margin:30px 300px ;
+    }
+    .BMI-heading h1{
+        font-size: 35px;
+        margin-top: 100px;
+    }
+    .BMI-heading p{
+        font-size: 12px;
+    }
+    .BMI-calculator{
+        height: 350px;
+        width: 100%;
+           
+        
+    }
+    .full-table{
+        height: 0px;
+        width: 300px;
+        margin-top: 50px;
+    }
+    .full-table td{
+        font-size: 12px;
+    }
+    .BMI-chart{
+        margin-left: 50px;
+    
+    }
+    .BMI-chart h1{
+        font-size: 25px;
+        font-weight: 900;
+        
+    }
+    
+    /*BMI left table end*/
+    /*BMI right table start*/
+    .calculate-BMI{
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+    .calculate-BMI h1{
+        font-size: 25px;
+    }
+    .calculate-BMI p{
+        font-size: 12px;
+    }
+    /*bmi right site box */
+    .factor, .sex, .age, .weight, .height{
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+        padding: 5px;
+    
+    
+    }
+
+
+
+
+
+
+    /*meet our team section*/
+    .meet-team-section{
+        width: 80%;
+        height: 650px;
+        margin: 0 auto;
+    }
+    .meet-team-header h1{
+        font-size: 35px;
+    }
+    .meet-team-header p{
+        font-size: 12px;       
+    }
+    
+    .picture-items{
+        width: 100%;
+        margin: 0 auto;
+        height: 430px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 15px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 20px ;
+    
+    }
+    .picture-items h1{
+        font-size: 18px;
+        margin-left: 10px;
+        padding-top: 130px;
+    }
+    .picture-items p{
+        font-size: 12px;
+        margin-left: 10px
+    }
+    .img-one{
+  
+        height: 200px ;
+        width: 250px;
+    }
+    .img-two{
+        height: 200px ;
+        width: 250px;
+    
+    }
+    .img-three{
+        height: 200px ;
+        width: 250px;
+    
+    }
+    .img-four{
+        height: 200px ;
+        width: 250px;
+    }
+    .img-five{
+        height: 200px ;
+        width: 250px;
+    }
+    .img-six{
+        height: 200px ;
+        width: 250px;
+    
+    }
+
+
+
+
+    /*footer full content*/
+    .footer-fullbox{
+        gap: 30px;
+        margin: 20px 150px;
+    }
+    .footer-left-content h1{
+        font-size: 35px;
+    }
+    .footer-left-content p{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 12px;
+    }
+    .footer-midle-content h2{
+        font-size: 20px ;
+    }
+    .footer-midle-content li{
+       font-size: 16px;
+    }
+    
+    .footer-right-content h2{
+        font-size: 20px ;
+    }
+    .footer-right-content li{
+        font-size: 16px;  
+    }
 
  }
+ .copyrite{
+    font-size:16px ;
+}
+.footer hr{
+    width: 80%;
+    margin: 0 auto;
+}
