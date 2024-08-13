@@ -330,6 +330,7 @@
 border: none;
 background-color: rgba(255, 255, 255, 0.1);
 border-style: none;
+
 }
 
 
@@ -587,6 +588,205 @@ border-style: none;
 
     /*media quarry small devise start*/  
  @media screen  and (max-width: 573px ){
+    /*full-header-section start*/
+
+  /*nave bar start*/
+  .full-header-section{
+    height: 1052px;
+    width: 100%;
+ 
+  }
+
+
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px;
+    
+  }
+  .list-items{
+    display: none;
+
+    
+  }
+
+    /*head section er text and image  start*/
+    .text-picture-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 34px 20px;
+    }
+
+ 
+/*head section er text and image  end*/
+/*change-habit-item full content start*/
+.change-habit-item{
+    height: 1800px;
+    align-items: center;
+}
+.change-habit-item h1{
+    font-size: 35px;
+    
+}
+.change-habit-item p{
+    font-size: 14px;
+    
+}
+/*four habit items start*/
+.habit-items{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 200px;
+}
+/*change-habit-item full content end*/
+/*Run an Extra  Mile Easily full box start*/
+.run-fullbox{
+    height: 670px;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+       
+}
+
+/*Run an Extra  Mile Easily full box end*/
+
+/*BMI-calculator full box start*/
+/*BMI left table start*/
+.BMI-heading{
+    margin:10px 30px ;
+}
+.BMI-heading h1{
+    font-size: 35px;
+}
+.BMI-calculator{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;  
+    padding-bottom: 30px;  
+    padding-left: 30px;
+}
+
+.BMI-chart{
+    margin-left: 10px;
+
+}
+.BMI-chart h1{
+    font-size: 30px;
+}
+
+/*BMI left table end*/
+/*BMI right table start*/
+.calculate-BMI{
+    margin-right: 20px;
+}
+.calculate-BMI h1{
+    font-size: 30px;
+}
+
+/*bmi right site box */
+
+.full-bmibox input{
+    height: 25px;
+    width: 155px;
+}
+
+
+.factor input{
+    width: 350px;
+}
+.weight input{
+    width: 175px;
+}
+
+
+
+
+/*meet our team full section start */
+.meet-team-section{
+    width: 100%;
+    height: 2500px;
+    margin: 0 auto;
+}
+.meet-team-header h1{
+    font-size: 35px;
+}
+.meet-team-header p{
+    font-size: 14px;
+    padding-bottom: 30px;
+    
+}
+
+.picture-items{
+    width: 100%;
+    margin: 0 auto;
+    height: 2250px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+}
+
+
+
+/*extra form start*/
+.full-form{
+    height: 900px;
+    width: 100%;
+}
+.form-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px 20px;
+}
+.picture img{
+    height: 400px;
+    width: 400px;
+}
+.form{
+    width: 290px;
+    padding: 30px 40px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgb(161, 160, 160);
+}
+
+
+/*footer fullcontent start */
+.footer{
+    height: 800px;
+}
+.footer-fullbox{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 50px;
+}
+.footer-left-content h1{
+    font-size: 35px;
+}
+.footer-midle-content h2{
+    font-size: 20px ;
+    text-align: left;
+}
+.footer-midle-content li{
+    font-size: 18px;
+
+}
+
+.footer-right-content h2{
+    font-size: 20px ;
+}
+.footer-right-content li{
+    font-size: 18px;
+
+}
+
+.copyrite{
+    font-size:18px ;
+}
 
 
  }
