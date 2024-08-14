@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="styles/style.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
         </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+   
 </head>
 <body class="inter-font">
     <header class="full-header-section">
@@ -19,12 +23,14 @@
                     <ul class="list-items">
                         <li><a  class="nav-link" href=""><button id="home">Home</button></a></li>
                         <li><a class="nav-link" href="">Service</a></li>
-                        <li><a class="nav-link" href="">Contact</a></li>
+                        <li><a class="nav-link" href="#full-form">Contact</a></li>
                         <li><a class="nav-link" href="">About</a></li>
+                        
                     </ul>
 
                 </div>
-
+               <input type="checkbox" id="check">
+               <label for="check" class="checkbtn"> <i class="fa fa-bars"></i></label>
             </nav>
         </section>
         <section>
@@ -38,6 +44,30 @@
                 </div>
                 <div>
                     <img src="./images/Images 2.png" alt="" height="500px">
+
+                    <div class="video-box">
+                        <div class="left-site">
+                            <div id="video">
+                                <div id="playbtn">
+                                    <ion-icon name="play"></ion-icon>
+
+                                </div>
+
+                            </div>
+                            <div>
+                                <h1>350+</h1>
+                                <p>Videos tutorial</p>
+                            </div>
+
+                        </div>
+
+                        <div class="right-site">
+                            <h1>500+</h1>
+                            <p>Free Workout Videos</p>
+
+                        </div>
+
+                    </div>
 
                 </div>
 
@@ -201,7 +231,7 @@
         </div>
 
     </section> <br><br>
-    <section class="full-form">
+    <section id="full-form">
         <div class="form-box">
             <div class="form">
                 <h1>Login</h1>

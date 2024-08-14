@@ -12,6 +12,18 @@
 
   /*full-header-section start*/
 
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80%;
+    margin-right: 30px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
   /*nave bar start*/
   .full-header-section{
     height: 645px;
@@ -35,9 +47,10 @@
     border: 1px rgba(226, 224, 224, 0.1) solid;
     border-radius: 39px;
     height: 30px;
-    width: 90%;
+    width: 100%;
     align-items:center ;
     margin-right: 20px;
+
     
   }
   .company-name{
@@ -69,6 +82,80 @@
         display: flex;
         justify-content: space-between;
         margin: 34px 200px;
+    }
+    .video-box{
+      display: flex;
+      flex-direction: row;
+    }
+    .left-site{
+        height: 60px;
+        width: 130px;
+        border: 1px solid rgba(255, 255, 255, 0.1) ;
+        margin-top: -265px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        text-align: center;
+        align-items: center;
+        display: flex;
+        gap: 10px;
+        
+
+    }
+    .left-site h1{
+        color: white;
+        font-size: 20px;
+        margin-top: -0.1px;
+        padding-top: 2px;
+        font-weight: 600;
+    }
+    .left-site p{
+        color: rgba(255, 255, 255, 0.65);
+        font-size: 10px;
+        margin-top: -10px;  
+        
+    }
+    #video{
+        height: 30px;
+        width: 30px;
+        border: 1px solid rgba(230, 83, 60, 1)  ;
+        background-color: rgba(230, 83, 60, 1) ;
+        border-radius: calc(90px);
+        margin-left: 5px;
+    }
+    #playbtn{
+        height: 25px;
+        width: 30px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 7px;
+
+    }
+    .right-site{
+        height: 65px;
+        width: 140px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        margin-top: -460px;
+        margin-left: 40px;
+        border-radius: 10px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        text-align: center;
+    }
+    .right-site h1{
+        color: white;
+        font-size: 25px;
+        margin-top: -0.1px;
+        padding-top: 2px;
+        font-weight: 900;
+    }
+    .right-site p{
+        color: rgba(255, 255, 255, 0.65);
+        font-size: 12px;
+        margin-top: -10px;
     }
 
     .head-text-content h1{
@@ -165,6 +252,8 @@
     width: 360px;
     margin-top: 25px;
     border-radius: 18px;
+    object-fit: none;
+    object-position: 65% 30%;
     
 }
 .run-fullbox h1{
@@ -445,7 +534,7 @@ border-style: none;
 
 
 /*extra form start*/
-.full-form{
+#full-form{
     height: 500px;
     width: 80%;
     border: rgb(203, 201, 201) 1px solid;
@@ -591,6 +680,9 @@ border-style: none;
     /*full-header-section start*/
 
   /*nave bar start*/
+  .checkbtn{
+    display: block;
+  }
   .full-header-section{
     height: 1052px;
     width: 100%;
@@ -731,7 +823,7 @@ border-style: none;
 
 
 /*extra form start*/
-.full-form{
+#full-form{
     height: 900px;
     width: 100%;
 }
@@ -797,9 +889,23 @@ border-style: none;
 
  /*media quarry long device start*/
  @media screen and (min-width: 992px) and (max-width:1024px){
+    .left-site{
+        height: 60px;
+        width: 130px;
+        margin-top: -230px;
+        margin-left: -20px;
+    }
+
+
+    .right-site{
+        height: 60px;
+        margin-top: -380px;
+        margin-left: 20px;
+
+    }
 
 /*extra form start*/
-.full-form{
+#full-form{
     height: 400px;
     width: 80%;
     border: rgb(203, 201, 201) 1px solid;
