@@ -684,7 +684,7 @@ border-style: none;
     display: block;
   }
   .full-header-section{
-    height: 1052px;
+    height: 1152px;
     width: 100%;
  
   }
@@ -735,7 +735,7 @@ border-style: none;
 /*Run an Extra  Mile Easily full box start*/
 .run-fullbox{
     height: 670px;
-    width: 85%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     padding: 20px 50px;
@@ -787,7 +787,7 @@ border-style: none;
 
 
 .factor input{
-    width: 350px;
+    width: 330px;
 }
 .weight input{
     width: 175px;
@@ -824,7 +824,7 @@ border-style: none;
 
 /*extra form start*/
 #full-form{
-    height: 900px;
+    height: 950px;
     width: 100%;
 }
 .form-box{
